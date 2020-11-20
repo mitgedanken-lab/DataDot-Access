@@ -1,17 +1,14 @@
-Dot Access Data
-===============
+# Dot Access Data
 
 Given a deep data structure, access data by dot notation.
 
-Requirements
-------------
+## Requirements
 
-* PHP (7.0+)
+- PHP (7.0+)
 
 > For PHP (5.3+) please refer to version `1.0`.
 
-Usage
------
+## Usage
 
 Abstract example:
 
@@ -103,14 +100,12 @@ $data->set('hosts.april', [
 $hasKey = $data->has('hosts.dewey.username');
 ```
 
-License
--------
+## License
 
 This library is licensed under the MIT License - see the LICENSE file
 for details.
 
-Community
----------
+## Community
 
 If you have questions or want to help out, join us in the
 [#dflydev](irc://irc.freenode.net/#dflydev) channel on irc.freenode.net.
