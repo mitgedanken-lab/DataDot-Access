@@ -3,14 +3,12 @@ Dot Access Data
 
 Given a deep data structure, access data by dot notation.
 
-
 Requirements
 ------------
 
- * PHP (7.0+)
+* PHP (7.0+)
 
 > For PHP (5.3+) please refer to version `1.0`.
-
 
 Usage
 -----
@@ -105,13 +103,11 @@ $data->set('hosts.april', [
 $hasKey = $data->has('hosts.dewey.username');
 ```
 
-
 License
 -------
 
 This library is licensed under the MIT License - see the LICENSE file
 for details.
-
 
 Community
 ---------
